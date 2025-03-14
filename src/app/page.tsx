@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "../components/button"
@@ -37,7 +38,7 @@ export default function SalesPage() {
                 <Button size="lg" className="bg-amber-500 hover:bg-amber-600 text-white font-bold">
                   QUERO ADQUIRIR AGORA
                 </Button>
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+                <Button size="lg" variant="outline" className="text-blue hover:bg-white/10" >
                   SAIBA MAIS
                 </Button>
               </div>
@@ -61,7 +62,7 @@ export default function SalesPage() {
       </header>
 
       {/* Example Carousel */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-white" id="examples">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">Exemplos do Nosso Conteúdo</h2>
           <p className="text-center text-gray-600 max-w-2xl mx-auto mb-12">
@@ -394,7 +395,7 @@ export default function SalesPage() {
         </div>
       </section>
 
-      {/* Testimonials */}
+      {/* Testemunhas */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">O que dizem nossos clientes</h2>

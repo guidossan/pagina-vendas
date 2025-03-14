@@ -566,35 +566,41 @@ video {
   display: none;
 }
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: #ffffff; /* 0 0% 100% */
+    --foreground: #1a1a1a; /* 222.2 84% 4.9% */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: #ffffff; /* 0 0% 100% */
+    --card-foreground: #1a1a1a; /* 222.2 84% 4.9% */
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: #ffffff; /* 0 0% 100% */
+    --popover-foreground: #1a1a1a; /* 222.2 84% 4.9% */
 
-    --primary: 221.2 83.2% 53.3%;
-    --primary-foreground: 210 40% 98%;
+    --primary: #1e40af; /* 221.2 83.2% 53.3% */
+    --primary-foreground: #d1d5db; /* 210 40% 98% */
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: #e0f2fe; /* 210 40% 96.1% */
+    --secondary-foreground: #374151; /* 222.2 47.4% 11.2% */
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: #e0f2fe; /* 210 40% 96.1% */
+    --muted-foreground: #6b7280; /* 215.4 16.3% 46.9% */
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: #e0f2fe; /* 210 40% 96.1% */
+    --accent-foreground: #374151; /* 222.2 47.4% 11.2% */
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: #ef4444; /* 0 84.2% 60.2% */
+    --destructive-foreground: #d1d5db; /* 210 40% 98% */
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 221.2 83.2% 53.3%;
+    --border: #d1d5db; /* 214.3 31.8% 91.4% */
+    --input: #d1d5db; /* 214.3 31.8% 91.4% */
+    --ring: #1e40af; /* 221.2 83.2% 53.3% */
 
     --radius: 0.5rem;
+
+    
+  }
+  html {
+    scroll-behavior: smooth;
+    overflow: auto;
   }
   * {
   border-color: hsl(var(--border));
@@ -943,13 +949,6 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
 }
-.border-input {
-  border-color: hsl(var(--input));
-}
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
-}
 .bg-amber-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(254 243 199 / var(--tw-bg-opacity, 1));
@@ -957,9 +956,6 @@ video {
 .bg-amber-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(245 158 11 / var(--tw-bg-opacity, 1));
-}
-.bg-background {
-  background-color: hsl(var(--background));
 }
 .bg-black\/30 {
   background-color: rgb(0 0 0 / 0.3);
