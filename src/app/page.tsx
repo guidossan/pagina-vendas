@@ -50,7 +50,7 @@ export default function SalesPage() {
                   alt="Pacote de posts para Direito Previdenciário"
                   width={500}
                   height={500}
-                  className="rounded-lg shadow-2xl"
+                  className="rounded-lg shadow-2xl max-w-full h-auto sm:w-[200px] md:w-[300px] lg:w-[500px] mx-auto block"
                 />
                 <div className="absolute -bottom-4 -right-4 bg-amber-500 text-white px-6 py-3 rounded-lg font-bold shadow-lg">
                   Oferta Especial
